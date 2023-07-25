@@ -36,8 +36,44 @@
 </head>
 
 <body class="font-lato">
-    <header>
+    <header class="container mx-auto">
+        <!-- nav section -->
+        <nav class="my-5">
+            <div class="navbar bg-white lg:bg-[#F85559]  lg:rounded-full">
+                <div class="navbar-start">
+                  
+                  <ul class="lg:flex gap-4 text-lg font-medium lg:text-white text-black px-4 hidden cursor-pointer">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                  <div class="lg:hidden flex items-center gap-2 pl-4">
+                    <img src="./images/logo.png" alt="">
+                    <h3 class="lg:text-white text-[#121212] text-xl lg:text-[40px] font-bold cursor-pointer">Fruit Burst</h3>
+                  </div>
+                </div>
+                <div class="navbar-center hidden gap-2 lg:flex">
+                    <img src="./images/logo.png" alt="">
+                    <h3 class="lg:text-white text-[#121212] text-xl lg:text-[40px] font-bold cursor-pointer">Fruit Burst</h3>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost  lg:hidden ml-36 md:ml-28">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                        </ul>
+                      </div>
 
+                    <input type="text" placeholder="Search here" class="input input-bordered w-[250px] rounded-full hidden lg:block" />
+                </div>
+              </div>
+        </nav>
     </header>
     <main>
 
